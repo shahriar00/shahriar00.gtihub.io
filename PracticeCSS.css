@@ -1,0 +1,179 @@
+body{
+    background-color:white;
+    /* background: url("image/htmlimage.jpg"); */
+    background-size: contain;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+h1{
+    color:blue;
+    border: 2px solid red;
+}
+p{
+    color: blanchedalmond;
+}
+/* For ID select # */
+#p1{
+    color: brown;
+}
+/* For class Select (.) */
+.c1{
+    color: cyan;
+}
+/* For Group
+p,h1{
+
+}
+*/
+h2{
+    border: 2px solid black;
+    display: inline;
+    color:white;
+}
+
+.mar{
+    margin: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    border:solid black;
+    display: inline;
+    padding: 10px;
+}
+/* 
+
+Bitora dika space jonno padding
+Bairer dika space jonno margin
+
+*/
+
+.navver{
+    max-width: 500px;
+    border:2px solid black;
+    display: inline;
+}
+.lo{
+    border: 2px solid black;
+    display: inline;
+    background-color: green;
+    padding: 20px;
+    margin: 20px;
+    outline: 20px solid red;
+    text-align: justify;
+    text-shadow: green;
+    font-family: serif;
+}
+#inner{
+    background-color: green;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    
+    text-shadow: black;
+    border-radius: 10px 10px;
+    color: greenyellow;
+    text-decoration: none;
+}
+#inner:hover{
+    background-color: red;
+    opacity: 0.5;
+    color: black;
+}
+.li{
+    background-color: chartreuse;
+    margin: auto;
+    padding: 10px;
+    text-align: justify;
+    margin-top: 100px;
+    width: 30%;
+}
+.li ol li{
+    color: black;
+    font-size: 30px;
+    font-family: serif;
+    background-color: cornsilk;
+    margin-top: auto;
+   
+}
+.table1{
+ background-color: cornsilk;
+ width: 20%;
+ margin-top: 100px;
+ padding: 20px;
+ border-collapse: collapse;
+ border: 2px solid black;
+}
+.table2 table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.table2 table th{
+   background-color: green;
+   color: black;
+   font-size: 100%;
+   border: 2px solid black;
+   border-collapse: collapse;
+}
+.table2 table td{
+    background-color: red;
+    font-size: 100%;
+    color: black;
+    border: 2px solid black;
+    border-collapse: collapse;
+    
+ }
+ #dis{
+     /* display: none; */
+     visibility: hidden;
+     /* position:sticky 
+       top:0;
+    combinator jonno ~ sign use korvo child k paita caila...............
+    table2 ~{
+    }
+
+    opacity 0-1 porjonto
+
+     */
+     text-align: center;
+
+ }
+ /* GRID Using */
+ *{
+     box-sizing: border-box;
+ }
+ .p1{
+     color: black;
+     padding: 10px;
+     float: left;
+     border: 2px solid red;
+     width: 30%;
+ }
+ .p2{
+     color: black;
+     padding: 10px;
+     float: right;
+     border: 2px solid red;
+     width: 70%;
+ }
+.container{
+    background-color: blanchedalmond;
+    border: 2px solid blue;
+}
+.col-5{
+    border: 2px solid blue;
+}
+.col-7{
+     border: 2px solid blue;
+}
+.col-8{
+    border: 2px solid red;
+}
+.col-4{
+    border: 2px solid red;
+}
+.con{
+    background-color: yellow;
+}
+
+
+

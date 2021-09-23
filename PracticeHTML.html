@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Internal HTML CSS -->
+    <style>
+        p{
+            color: cadetblue;
+            background-color: cornsilk;
+        }
+    </style>
+    <link rel="stylesheet" href="PracticeHTML.css">
+</head>
+<body>
+    <pre>
+        আমার সোনার বাংলা
+           আমি তোমায় ভালবাসি
+        চিরদিন তোমার আকাশ 
+           তোমার বাতাস আমার প্রান এ
+    </pre>
+    <h1>Hello World</h1>
+    <h2>Hello World</h2>
+    <h3>Hello World</h3>
+    <h4>Hello World</h4>
+    <h5>Hello World</h5>
+    <h6>Hello World</h6>
+    <hr>
+    <p style = "color:aqua;background-color: cadetblue; text-align: center; ">New paragraph</p>
+    <hr>
+   
+    <p style = "color: red;"> Ipsum dolor sit amet consectetur adipisicing elit. Soluta excepturi dolore autem quia non similique ducimus amet. Nihil sequi maiores velit quae ad recusandae numquam doloribus corporis nostrum totam temporibus beatae optio neque aut, dolore tempora architecto quidem eos dolorum iure atque illo. Nobis quasi ipsam officia laudantium, nesciunt eius deleniti tenetur iusto voluptate molestias. Quibusdam quae ducimus voluptates magnam facilis amet? At voluptates quas quo, natus eaque numquam maxime nesciunt cupiditate! Libero quis exercitationem hic? Laudantium, pariatur? Odio error dignissimos suscipit architecto laboriosam quo voluptas assumenda similique saepe cum amet soluta voluptatem, quidem iure repellendus non, recusandae atque officiis.</p>
+
+     <p>water:<b>H<sub>2</sub>O</b><br>
+      <i>This is the mathmatical law's:</i><b>(a+b)<sup>2</sup> = a<sup>2</sup>+2ab+b<sup>2</sup></b>
+     <br><del>This messege is deleted</del>
+    </p>
+     <q>This is a quatation.</q>
+     <blockquote>This is a Blockqoute</blockquote>
+     <p <abbr title="Hyper Text Markup Language">HTML</abbr>is the structure of language</p>
+
+    <!-- This is LiNK section -->
+    <a href="https://youtube.com" target="_blank">Go to YOUTUBE</a><br><br>
+    <a href="https://facebook.com"target = "_blank">Go to FACEBOOK</a><br><br>
+
+    <!-- Image tag -->
+    <p style="background-color:ghostwhite;"><b>This the image add for a website.</b></p><br>
+    <img src="image/htmlimage.jpg" alt="HTML Image"style="width:300px ;height:300px"><br>
+    <caption>Result:</caption>
+        <table border="1" >
+            <tr>
+                <th>Name</th>
+                <th>Roll</th>
+                <th>Marks</th>
+             </tr><br>
+             <tr>
+                 <td>Rakibul</td>
+                 <td>101</td>
+                 <td>90</td>
+             </tr>
+        </table>
+        
+
+        <ul>
+            <li>Apalle</li>
+            <li>Orange</li>
+            <li>Mango</li>
+            <li>Banana</li>
+        </ul>
+
+        <ol type="i">
+            <li>Dhaka</li>
+            <li>Chittagong</li>
+            <li>Sylet</li>
+        </ol>
+
+  <!-- Block element -->
+  <div style = "background-color:gold;">
+      <span>This is the block Element</span>
+  </div>
+
+   <!-- Class and ID -->
+   <p id="pera">This is the first ID</p>
+   <p class="sim">This is the first class</p>
+    <p class="sim">This is the second class</p>
+    
+    <!-- IFrame -->
+     <iframe src="CSS practice.html" frameborder="0" height="300" width="300"></iframe><br><br>
+    
+     <p id="ptag">This is First Data</p>
+     <button type="button" onclick="myfunction()"> CLICK</button>
+    <!-- Javascript -->
+
+     <script>
+         function myfunction(){
+             document.getElementById("ptag").innerHTML="This is javascript";
+         }
+     </script>
+      
+  <p style="font-size: 2vw;">THis is a Responsible website</p>
+
+<!-- Form Attribute -->
+
+  <form action="useraccount.php">
+      <p>Username: <input type="text"></p>
+      <p>Password: <input type="password"></p>
+      <p>Gender: <input type="radio">Male <input type="radio">Female</p>
+      <p>Religion: <input type="checkbox">Islam <input type="checkbox">Hindu</p>
+      <p>Department:
+          <select name="" id="">
+              <option value="">SWE</option>
+              <option value="">EEE</option>
+              <option value="">CSE</option>
+          </select>
+      </p>
+   <p>
+       <input type="submit" value = "SignUP">
+       <input type="reset" value="Clear">
+   </p><br>
+   <input type="text" name="" id="MYLIST">
+   <datalist id="MYLIST">
+       <option value="Dhaka">Dhaka</option>
+       <option value="Chittagong">Chittagong</option>
+       <option value="Sylhet">Sylhet</option>
+   </datalist><br><br>
+
+   <video controls width="200px"height="200px">
+       <source src="Armaan Malik_ Tootey Khaab (Official Video) _ Songster, Kunaal Vermaa _ Shabby _ Bhushan Kumar.mp4" type="video/mp4">
+   </video><br><br>
+   <audio controls><source src="01.HAK-Hamari_Adhuri_Kahani.mp3" type="audio/mp3"></audio>
+
+  </form><br>
+
+<!-- API -->
+
+    <h1 id = "empty"></h1>
+    <button type="button" onclick="myposition()">Getlocation</button>
+     <script>
+         var h = document.getElementById("empty");
+         function myposition(){
+             if(navigator.geolocation)
+             {
+                 navigator.geolocation.getCurrentPosition(showlocation);
+             }
+         }
+        function showlocation(position)
+        {
+            h.innerHTML="long:"+position.coords.longitude;
+        }
+
+
+     </script><br>
+
+    <p draggable="true" style="background-color:white;">This is Drag and Drop System.</p><br>
+    <h1>The End :)</h1>
+
+
+ 
+
+</body>
+</html>
